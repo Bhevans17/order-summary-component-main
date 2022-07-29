@@ -2,9 +2,10 @@
   "name": "order-summary-component-main",
   "version": "1.0.0",
   "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
-  "main": "src/js/main.js",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel serve src/index.html --public-url / --dist-dir dist"
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "build": "parcel build"
   },
   "keywords": [
     "bootstrap",
